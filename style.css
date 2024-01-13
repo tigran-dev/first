@@ -1,0 +1,40 @@
+/* div{
+    background-color: brown;
+}
+.someText{
+    background-color: blue;
+    font-size: 20px;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .head {
+    font-size: 15px;
+ }
+  .secondHead {
+    font-size: 13px;
+  }
+   .boldText {
+    font-weight: 700;
+   }
+    .readText {
+    color: red;
+    }
+     .thirdHead {
+    font-size: 13px;
+     }
+.textMove{
+    text-align: right;
+}
+.appercase{
+    text-transform: uppercase;
+}
+.wordstyle{
+    font-style: italic;
+}
+.texttick{
+    text-decoration: underline;
+}
+.centeredtext{
+    text-align: center;
+}
