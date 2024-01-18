@@ -5,11 +5,12 @@
     background-color: blue;
     font-size: 20px;
 } */
-body {
+ body {
     font-family: Arial, Helvetica, sans-serif;
 }
- .head {
-    font-size: 15px;
+ /* .head {
+    font-size: 30px;
+    color: red
  }
   .secondHead {
     font-size: 13px;
@@ -37,4 +38,51 @@ body {
 }
 .centeredtext{
     text-align: center;
+}  */
+
+/* .example-block{
+    width: 500px;
+padding: 50px 30px 5px 100px;
+margin: 50px 30px 5px 100px;
+border: 1px solid black
+
 }
+.example-string{
+    width: 500px;
+
+}
+.example-img{
+    width: 100px   ;
+} */
+
+.example-block{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid red;
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+.example-string{
+    font-size: 50px;
+
+
+}
+.example-img{
+    border: 10px dashed red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
