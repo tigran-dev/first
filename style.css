@@ -55,7 +55,7 @@ border: 1px solid black
     width: 100px   ;
 } */
 
-.example-block{
+/* .example-block{
     box-shadow: 5px 5px 10px 5px red;
     padding: 15px;
     font-size: 50px;
@@ -71,7 +71,22 @@ border: 1px solid black
 .example-img{
     border: 10px dashed red;
 
+} */
+body{
+    padding: 30px
 }
+
+.block{
+   background: url('https://i.pinimg.com/736x/52/31/27/5231271a1f410b70ee8cc43f945e1529.jpg') 0 0/100% no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+/* .secondBlock{
+
+    
+} */
+   
 
 
 
