@@ -100,31 +100,31 @@
 //     console.log(result)
 // })
 
-function func() {
-   return new Promise(function(resolve, reject) {
-      setTimeout(function() {
-         // reject(new Error("You have a problem."));
-         resolve(8)
-      }, 2000)
-   });
-}
+// function func() {
+//    return new Promise(function(resolve, reject) {
+//       setTimeout(function() {
+//          // reject(new Error("You have a problem."));
+//          resolve(8)
+//       }, 2000)
+//    });
+// }
 
-function func2 (val) {
-   return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-         resolve(val + 9);
-        }, 2000);
-   })
-}
+// function func2 (val) {
+//    return new Promise(function(resolve, reject) {
+//         setTimeout(function() {
+//          resolve(val + 9);
+//         }, 2000);
+//    })
+// }
 
 
-func().then(function(result) {
-   return func2(result);
-}).then(function(result) {
-   return result + 5;
-}).then(function (result) {
-   alert(result);
-})
+// func().then(function(result) {
+//    return func2(result);
+// }).then(function(result) {
+//    return result + 5;
+// }).then(function (result) {
+//    alert(result);
+// })
 
 
  
@@ -132,13 +132,53 @@ func().then(function(result) {
 //    alert(error);
 // });
 
+// function func() {
+//    return new Promise(function(resolve, reject) {
+//       setTimeout(function() {
+//         resolve("good");
+//         reject(new Error("you have a problem"));
+//       }, 2000); 
+//    })
+// }
+
+// func().then(function(result) {
+//    alert(result);
+// })
 
 
+// func().catch(function(error) {
+//    alert(error)
+// })
 
+//   
 
+// function func() {
+//    return new Promise(function(resolve, reject) {
+//       resolve(9);
+//    });
+// }
 
+// async function func2 () {
+//    const r =  await func();
+   
+//    return r + 4;
+// }
 
+// func2().then(function(result) {
+//    alert(result);
+// }).catch(function(error) {
+//    alert(error);
+// })
 
+// let a = "";
+// if (a) {
+//    alert("yay")
+// } else {
+//    alert("noo")
+// }
+
+// let a = NaN || null || undefined || 8 || false;
+// alert(a); 
 
 
 
